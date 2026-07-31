@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDC FARM - Peternakan Lele & Entok</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. SPLASH / LOADING SCREEN -->
+    <div id="loader">
+        <div class="loader-logo">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="45" stroke="#9d52ff" stroke-width="6"/>
+                <path d="M35 35L65 65M65 35L35 65" stroke="#00f2fe" stroke-width="6" stroke-linecap="round"/>
+            </svg>
+        </div>
+        <div class="loader-name">IDC FARM</div>
+        <div class="loader-sub">PETERNAKAN LELE & ENTOK</div>
+        <div class="progress-box">
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progress-fill"></div>
+            </div>
+            <div class="progress-text">
+                <span>MEMUAT</span>
+                <span id="progress-percent">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. NAVBAR -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="#home" class="brand-logo">IDC FARM<span></span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+                <li><a href="#services" class="nav-link">Produk & Layanan</a></li>
+                <li><a href="#work" class="nav-link">Galeri Farm</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 3. HERO SECTION -->
+    <section id="home">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <div class="section-tag">WELCOME TO IDC FARM</div>
+                <h1>Peternakan <span class="italic-title">Lele & Entok</span> Berkualitas</h1>
+                <p>Selamat datang di <strong>IDC FARM</strong>. Kami menyediakan bibit serta hasil panen Lele dan Entok berkualitas tinggi dengan perawatan alami dan pakan pilihan.</p>
+                <div class="hero-btns">
+                    <a href="#work" class="btn btn-primary">Lihat Hasil Panen <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Pesan Sekarang</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-solid fa-location-dot"></i></a>
+                </div>
+            </div>
+
+            <!-- Widget Komoditas -->
+            <div class="skill-widget">
+                <div class="widget-header">
+                    <span>Komoditas Utama</span>
+                    <span>Peternakan Modern</span>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-solid fa-fish"></i>
+                        <h4>Lele Konsumsi</h4>
+                        <span>Segar & Sehat</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-water"></i>
+                        <h4>Bibit Lele</h4>
+                        <span>Unggul & Lincah</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-feather"></i>
+                        <h4>Entok Pedaging</h4>
+                        <span>Bobot Maksimal</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-egg"></i>
+                        <h4>Bibit Entok (DOE)</h4>
+                        <span>Tetas Berkualitas</span>
+                    </div>
+                </div>
+                <div class="widget-audio">
+                    <span><i class="fa-solid fa-check-double"></i> Pakan Organik & Terjaga</span>
+                    <div class="audio-wave">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ABOUT SECTION -->
+    <section id="about">
+        <div class="container about-grid">
+            <div class="id-card-wrapper">
+                <div class="id-card">
+                    <div class="id-card-hole"></div>
+                    <img src="foto0.jpg" alt="IDC Farm" class="id-card-img">
+                </div>
+            </div>
+            <div class="about-text">
+                <div class="section-tag">TENTANG IDC FARM</div>
+                <h2>Dikelola dengan Standar Kebersihan & Kualitas Tinggi</h2>
+                <p>IDC FARM berkomitmen menghadirkan pasokan lele segar dan entok sehat untuk kebutuhan konsumsi harian, rumah makan, warung pecel lele, hingga kebutuhan hajatan dan kemitraan.</p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Pakan Terkontrol</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Rutin</h3>
+                        <p>Panen Berkala</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Segar</h3>
+                        <p>Kualitas Terjamin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SERVICES SECTION -->
+    <section id="services">
+        <div class="container">
+            <div class="section-tag">LAYANAN KAMI</div>
+            <h2 class="section-title">Produk & Layanan IDC FARM</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div>
+                        <span class="service-num">01</span>
+                        <div class="service-icon"><i class="fa-solid fa-fish"></i></div>
+                        <h3>Lele Konsumsi</h3>
+                        <p>Penyediaan lele siap konsumsi berbagai ukuran (isi 6, 8, 10 per kg) dengan daging gurih dan tidak berbau lumpur.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Segar</span>
+                        <span>Siap Panen</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <span class="service-num">02</span>
+                        <div class="service-icon"><i class="fa-solid fa-feather-pointed"></i></div>
+                        <h3>Entok Pedaging</h3>
+                        <p>Menyediakan entok konsumsi jantan dan betina bobot tebal, cocok untuk kuliner rica-rica atau olahan lainnya.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Sehat</span>
+                        <span>Bobot Mantap</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <span class="service-num">03</span>
+                        <div class="service-icon"><i class="fa-solid fa-seedling"></i></div>
+                        <h3>Bibit Lele & Entok</h3>
+                        <p>Penjualan bibit lele (ukuran sortir rapi) dan anak entok (DOE) dengan tingkat daya tahan tubuh yang baik.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Bibit Unggul</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <span class="service-num">04</span>
+                        <div class="service-icon"><i class="fa-solid fa-truck-ramps"></i></div>
+                        <h3>Supply Rumah Makan</h3>
+                        <p>Menerima kerja sama pasokan rutin mingguan/harian untuk warung makan, restoran, dan pedagang pasar.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Kemitraan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. WORK / PROJECTS SECTION -->
+    <section id="work">
+        <div class="container">
+            <div class="section-tag">GALERI</div>
+            <h2 class="section-title">Area Peternakan & Hasil Panen</h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="foto9.jpg"auto=format&fit=crop&w=800&q=80" alt="Kolam Lele" class="project-bg">
+                    <div class="project-overlay">
+                        <span class="project-tag">Kolam Lele</span>
+                        <div class="project-info">
+                            <h3>Kolam Budidaya Lele</h3>
+                            <p style="font-size:0.8rem; color:var(--text-muted);">Sistem sirkulasi air terjaga untuk kesehatan ikan</p>
+                        </div>
+                    </div>
+                    <a href="#" class="project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <img src="foto7.jpg" alt="Kandang Entok" class="project-bg">
+                    <div class="project-overlay">
+                        <span class="project-tag">Kandang Entok</span>
+                        <div class="project-info">
+                            <h3>Area Peternakan Entok</h3>
+                            <p style="font-size:0.8rem; color:var(--text-muted);">Lingkungan bersih, bebas penyakit, dan cukup sinar matahari</p>
+                        </div>
+                    </div>
+                    <a href="#" class="project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. TESTIMONIALS SECTION -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-tag">TESTIMONI</div>
+            <h2 class="section-title">Ulasan Pelanggan</h2>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">Lelenya segar banget, ukurannya seragam dan dagingnya manis gak bau lumpur. Langsung jadi langganan warung pecel lele saya.</p>
+                    <div class="author-info">
+                        <div class="author-avatar">B</div>
+                        <div class="author-details">
+                            <h4>Bang Budi</h4>
+                            <p>Pemilik Warung Makan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">Beli entok pedaging di IDC FARM bobotnya mantap, karkasnya bersih dan sehat. Pelayanan kirimnya juga cepat!</p>
+                    <div class="author-info">
+                        <div class="author-avatar">H</div>
+                        <div class="author-details">
+                            <h4>Haji Ahmad</h4>
+                            <p>Pelanggan Setia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">Bibit lele dari IDC FARM daya tahannya bagus banget, tingkat kematian saat ditebar sangat rendah.</p>
+                    <div class="author-info">
+                        <div class="author-avatar">M</div>
+                        <div class="author-details">
+                            <h4>Mas Hendra</h4>
+                            <p>Mitra Pembudidaya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CONTACT SECTION -->
+    <section id="contact">
+        <div class="container contact-grid">
+            <div class="contact-text">
+                <div class="section-tag">HUBUNGI KAMI</div>
+                <h2>Pesan Lele & Entok Segar di IDC FARM</h2>
+            </div>
+
+            <div class="contact-widget">
+                <div class="contact-widget-title">Informasi Pemesanan</div>
+                <div class="contact-links">
+                    <a href="https://wa.me/6281234567890" class="contact-card full-width">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div class="contact-card-info">
+                            <h4>WhatsApp (Respon Cepat)</h4>
+                            <p>0882_0069_8844</p>
+                        </div>
+                    </a>
+                    <a href="#" class="contact-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="contact-card-info">
+                            <h4>Lokasi Farm</h4>
+                            <p>desa Rendeng kec.Sale.kab.Rembang</p>
+                        </div>
+                    </a>
+                    <a href="#" class="contact-card">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="contact-card-info">
+                            <h4>Instagram</h4>
+                            <p>@idcfarm_official</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- Simple Loader Script -->
+    <script>
+        let progress = 0;
+        const fill = document.getElementById('progress-fill');
+        const percent = document.getElementById('progress-percent');
+        const loader = document.getElementById('loader');
+
+        const interval = setInterval(() => {
+            progress += Math.floor(Math.random() * 15) + 5;
+            if (progress >= 100) {
+                progress = 100;
+                clearInterval(interval);
+                setTimeout(() => {
+                    loader.classList.add('fade-out');
+                }, 300);
+            }
+            fill.style.width = progress + '%';
+            percent.textContent = progress + '%';
+        }, 80);
+    </script>
+</body>
+</html>
