@@ -1,2 +1,2 @@
-# IDC_FRAM
-Perternak jaya
+# PROFIL_PERUSAHAAN_SAHAM
+LANZ TBK
